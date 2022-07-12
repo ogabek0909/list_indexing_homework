@@ -6,10 +6,10 @@
     Returns:
         list: return answer
 */
-List func(a) {
-  return a;
+List func() {
+  return [];
 }
 
 void main() {
-  print(func([]));
+  print(func());
 }
