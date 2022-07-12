@@ -6,7 +6,7 @@
     Returns:
         list: return answer
 */
-int func(a) {
+List func(a) {
   return a[0];
 }
 
