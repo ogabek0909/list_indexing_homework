@@ -6,10 +6,9 @@
     Returns:
         list: return answer
 */
-List func(list1) {
+List func(List list1) {
   List x = [];
-
-  x.add(list1[list1.length()]);
+  x.add(list1.last);
   return x;
 }
 
