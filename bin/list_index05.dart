@@ -8,9 +8,9 @@
         list: return answer
 */
 List func(List list1, int i) {
-  List x = list1[i];
-  x.add(list1[1]);
-  return x;
+  List x = [];
+  x.add(list1[i]);
+  return x.toList();
 }
 
 void main() {
