@@ -9,7 +9,7 @@
 List func(List list1) {
   int q = -1;
   bool z = true;
-  while (q < list1.length - 1) {
+  while (q > list1.length - 1) {
     q++;
     if (list1[q] == 1) {
       list1[q] = z;
