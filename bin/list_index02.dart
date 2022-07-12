@@ -6,8 +6,10 @@
     Returns:
         list: return answer
 */
-List func(a) {
-  return a[0];
+List<dynamic> func(List a) {
+  List x = [];
+  x.add(a[0]);
+  return x;
 }
 
 void main() {
