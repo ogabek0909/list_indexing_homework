@@ -7,8 +7,10 @@
     Returns:
         list: return answer
 */
-List<List> func(List list1, int i) {
-  return list1[i];
+List func(List list1, int i) {
+  List x = list1[i];
+  x.add(list1[1]);
+  return x;
 }
 
 void main() {
