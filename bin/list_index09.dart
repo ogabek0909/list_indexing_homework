@@ -9,26 +9,20 @@
 bool func(list1) {
   int q = 0;
   bool w = true;
-  bool p = false;
-  while (q > list1.length) {
+  List y = [];
+  while (q <= list1.length - 1) {
+    if (list1[q] == list1[list1.length - 1]) {
+      y.add(true);
+    }
     q++;
-    if (list1[q] == 0 ||
-        list1[q] == 1 ||
-        list1[q] == 2 ||
-        list1[q] == 3 ||
-        list1[q] == 4 ||
-        list1[q] == 5 ||
-        list1[q] == 6 ||
-        list1[q] == 7 ||
-        list1[q] == 8 ||
-        list1[q] == 9) {
-      return true;
-    } else
-      return false;
   }
-  return false;
+  if (y.length == list1.length) {
+    w = true;
+  } else
+    w = false;
+  return w;
 }
 
 void main() {
-  print(func([4, 4, 4, 4]));
+  print(func(['hi', 're', 'do']));
 }
