@@ -6,14 +6,15 @@
     Returns:
         int: return answer
 */
-int func(a) {
+List func(a) {
   int q = 0;
+  List w = [];
 
   if (a.first < a.last) {
     q = a.last;
   } else
     q = a.first;
-  return q;
+  return [q];
 }
 
 void main() {
